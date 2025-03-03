@@ -2,20 +2,17 @@
 
 import * as React from "react"
 import {
-  AudioWaveform,
+  
   BarChart3Icon,
-  BookOpen,
-  Bot,
-  Command,
+
   DatabaseIcon,
-  Frame,
-  GalleryVerticalEnd,
+
   HomeIcon,
-  Map,
+  
   PieChart,
   ScanFaceIcon,
   Settings2,
-  SquareTerminal,
+  
   StoreIcon,
   TargetIcon,
 } from "lucide-react"

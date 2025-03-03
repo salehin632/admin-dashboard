@@ -1,16 +1,7 @@
 
-import Link from "next/link";
 import {
   Bell,
-  CircleUser,
-  Home,
-  LineChart,
-  Menu,
-  Package,
-  Package2,
-  ShoppingCart,
-  Users,
-  Upload, Download, Plus,
+ 
   Mail,
 } from "lucide-react";
 
@@ -18,33 +9,18 @@ import {
 
 import { AppSidebar } from "@/components/app-sidebar"
 
-import { Separator } from "@/components/ui/separator"
+
 import {
   SidebarInset,
   SidebarProvider,
-  SidebarTrigger,
+  
 } from "@/components/ui/sidebar"
-import { Badge } from "@/components/ui/badge";
+
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-// import { ModeToggle } from "@/components/ui/mode-toggle";
+
+
 import Orders from "@/components/features/orders";
-import { Input } from "@/components/ui/input";
+
 
 export default function Page() {
 
